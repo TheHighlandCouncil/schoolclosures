@@ -11,6 +11,6 @@ then resets the values of the closure fields in ALL records of the schools direc
 
 To enable email and social media alerts for closures:
 
-At The Highland Council, our customer call centre is notified of the closure by the Head Teacher, closes the school in the Jadu directory, then uses a form in our CRM system that sends out emails to local councillors / catering and cleaning staff etc. To include Twitter into the mix, we use tweetymail.com (receives an email, posts it to a Twitter account) this service costs $40 a year. If you use this, remember to configure tweetymail to strip out any corporate email sinature, or the message will be too long to tweet. You may want to have a Twitter > Facebook connection set up too.
+At The Highland Council, our customer call centre is notified of the closure by the Head Teacher, the call centre agent closes the school in the Jadu directory, then uses a form in our CRM system that sends out emails to local councillors / catering and cleaning staff etc. To include Twitter into the mix, we use tweetymail.com (receives an email, posts it to a Twitter account) this service costs $40 a year. If you use this, remember to configure TweetyMail to strip out any corporate email sinature, or the message will be too long to tweet. You may want to have a Twitter > Facebook connection set up too.
 
 Finished product: www.highland.gov.uk/schoolclosures
