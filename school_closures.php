@@ -1,3 +1,12 @@
+<?php
+	include_once("utilities/JaduStatus.php");
+	include_once("directoryBuilder/JaduDirectorySettings.php");	
+	include_once("directoryBuilder/JaduDirectories.php");
+	include_once("directoryBuilder/JaduDirectoryFields.php");
+	include_once("directoryBuilder/JaduDirectoryEntries.php");	
+	include_once("directoryBuilder/JaduDirectoryEntryValues.php");
+?>
+
 <h2>Schools closed <?php echo $date = date("l j F");?></h2>
 
 <p>This page is updated from 7 am and cleared each evening. Get alerts of closures on <a href="https://twitter.com/yourcouncil">Twitter</a> and <a href="https://www.facebook.com/yourcouncil">Facebook.</a></p>
