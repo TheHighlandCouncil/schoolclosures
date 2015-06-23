@@ -12,7 +12,14 @@
 <p>This page is updated from 7 am and cleared each evening. Get alerts of closures on <a href="https://twitter.com/yourcouncil">Twitter</a> and <a href="https://www.facebook.com/yourcouncil">Facebook.</a></p>
 
 <?php	
-	$directoryID = 30; // Set this to the directory ID
+	$directoryName = getAllDirectories();
+	foreach ($directoryName as $dirname) {
+		if ($dirname->name == 'Schools')  // Name of schools directory
+		{
+		 $directoryID = $dirname->id;
+		}	
+	}
+	
 	$query = 'Closed'; // We'll look for this phrase inside ALL fields in ALL records
 	
 	$pupilCount = 0; // Initial value for counting total pupil roll
