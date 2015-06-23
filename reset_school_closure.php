@@ -6,7 +6,14 @@
 	include_once("directoryBuilder/JaduDirectoryEntries.php");	
 	include_once("directoryBuilder/JaduDirectoryEntryValues.php");
 	
-	$directoryID = 30; // Set this to the directory ID
+	$directoryName = getAllDirectories();
+	foreach ($directoryName as $dirname) {
+		if ($dirname->name == 'Schools')  // Name of schools directory
+		{
+		 $directoryID = $dirname->id;
+		}	
+	}
+	
 	$query = 'Closed'; // We'll look for this phrase inside ALL fields in ALL records
 	$pupilCount = 0; // Starting number for pupil count. Pupil count is used to identify if schools are closed
 	
