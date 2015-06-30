@@ -2,7 +2,7 @@
 Jadu scripts for displaying schools closed by severe weather. stuart.downie@highland.gov.uk
 
 School_closures.php displays records from a directory which include a phrase (the word 'closed'). 
-Update the $directoryID number and relevant field names.
+Update the directory name and relevant field names.
 
 reset_school_closure.php is a scheduled task that runs at 6pm each night. Depending on your setup, you may need to ask
 Jadu to configure this for you. It should be installed in the /VAR/ folder so it's not accessible via a browser.
@@ -14,3 +14,5 @@ To enable email and social media alerts for closures:
 At The Highland Council, our customer call centre is notified of the closure by the Head Teacher, the call centre agent closes the school in the Jadu directory, then uses a form in our CRM system that sends out emails to local councillors / catering and cleaning staff etc. To include Twitter into the mix, we use tweetymail.com (receives an email, posts it to a Twitter account) this service costs $40 a year. If you use this, remember to configure TweetyMail to strip out any corporate email sinature, or the message will be too long to tweet. You may want to have a Twitter > Facebook connection set up too.
 
 Finished product: www.highland.gov.uk/schoolclosures
+
+Presentation: http://www.jadu.net/blog/TheJaduBlog/post/102/inventing-digital-services-with-iteration-and-creativity
